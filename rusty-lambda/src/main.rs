@@ -33,6 +33,6 @@ fn my_handler(e: CustomEvent, c: lambda::Context) -> Result<CustomOutput, Handle
     }
 
     Ok(CustomOutput {
-        message: format!("Hello folks!, this is {}!", e.first_name),
+        message: format!("Hello {}!", e.first_name),
     })
 }
