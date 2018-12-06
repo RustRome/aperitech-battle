@@ -3,4 +3,5 @@ aws lambda invoke --function-name RustyLambda --payload '{"name": "Rust Rome"}' 
 
 echo "Response"
 cat output.json
+echo ""
 
